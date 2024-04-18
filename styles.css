@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fondo_titulo{
+    background-image: url("Valorant_Fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 100%;
+}
+.texto_titulo{
+    font-family: "Rockwell Extra Bold";
+    font-size: 150px;
+    color: #dd4242;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 150px;
+}
+.container{
+    background-color: rgb(255, 91, 91);
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.cartel{
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(80, 80, 80);
+}
+.cartel p{
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+.cartel h3{
+    padding: 25px;
+    font-size: 40px;
+    color: #ffffff;
+}
+.cartel img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px; 
+    box-shadow:  0 0 55px black;
+}
+
+.imagenes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 60px; 
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.imagenes img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px; 
+    box-shadow:  0 0 55px black;
+}
+.imagenes img:hover{
+    filter: brightness(50%);
+}
+.fondo_imagenes{
+    background-color: #5a5a5a;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.menu{
+    background-color: black;
+    text-align: center;
+    font-family: 'Pirata One', cursive;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+  
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+  
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+  
+.menu li a:hover{
+    background-color: #333;
+}
+.footer{
+    background-color: #000000;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: "Pirata", cursive;
+}
